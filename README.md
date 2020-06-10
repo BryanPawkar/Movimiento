@@ -1,2 +1,2 @@
 # Movimiento
-Primer personaje con movimiento
+Primer objeto con movimiento
