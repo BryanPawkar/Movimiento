@@ -1,1 +1,16 @@
-ECHO est  activado.
+body, html{
+    width: 100%; 
+    height: 100%; 
+    padding: 0;
+    margin: 0 auto;
+}
+.cuadro{
+    width: 20px; 
+    height: 20px; 
+    border: 2px solid blue; 
+    background: aquamarine;
+    color: ghostwhite;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+}
+
