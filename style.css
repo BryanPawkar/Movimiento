@@ -4,6 +4,11 @@ body, html{
     padding: 0;
     margin: 0 auto;
 }
+body{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
 .cuadro{
     width: 20px; 
     height: 20px; 
@@ -12,5 +17,31 @@ body, html{
     color: ghostwhite;
     text-shadow: 1px 1px 1px black;
     padding: 5px;
+}
+.dos{
+    background: coral;
+}
+.mando{
+    border: 2px solid gray; 
+    border-radius: 10px;
+    width: 110px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.player2{
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+#arriba, #arriba2{
+    margin: 0 28%;
+    padding: 0 16%;  
+}
+#abajo, #abajo2{
+    padding: 0 18%; 
+}
+#izquierda2, #derecha2{
+    padding: 0 7%;
 }
 
